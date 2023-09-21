@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noode</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1><img src="R.png" alt="logo" height="100px"></h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="imagens.html">Sites</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <h2>Contatos
+            </h2>
+            <p>Se interessou nos nossos sites poderá entrar em contato preenchendo esse formulário</p>
+            <main>
+                <section class="conteudo">
+                    <h2>Entre em Contato Conosco</h2>
+                    <form action="processar_formulario.php" method="POST">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <button id="botao">Enviar</button>
+                        <script src="script1.js"></script>
+                        <p>ou ligar para esse número:</p>
+                        <h1><p>(65)3333-0000</p></h1>
+                    </form>
+                </section>
+            </main>
+            
+            <h2>Nossa Equipe</h2>
+            <p>Nossa equipe é composta por desenvolvedores talentosos, designers criativos e entusiastas da web que trabalham juntos para trazer vida a projetos web emocionantes.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Noode</p>
+    </footer>
+</body>
+</html>
